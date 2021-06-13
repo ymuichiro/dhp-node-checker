@@ -1,0 +1,3 @@
+# 概要
+gscreaterを元にfirebaseの開発テンプレートを展開
+hosting/src配下には別途React等の開発テンプレートを展開する

@@ -1,0 +1,24 @@
+{
+  "name": "firebase-pwa-app-template",
+  "version": "0.0.1",
+  "description": "firebase-pwa-app-template-root-pj",
+  "main": "dist/index.js",
+  "author": "ym.u.ichiro@gmail.com",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "emulate": "firebase emulators:start",
+    "upload:functions": "firebase deploy --only functions:executeCode",
+    "upload:hostings": "firebase deploy --only hosting"
+  },
+  "engines": {
+    "node": "14"
+  },
+  "dependencies": {
+    "ts-node": "9.1.1",
+    "typescript": "4.2.4"
+  },
+  "devDependencies": {
+    "firebase-tools": "^9.10.2"
+  }
+}
